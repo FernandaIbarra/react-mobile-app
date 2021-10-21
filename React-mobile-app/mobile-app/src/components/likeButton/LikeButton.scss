@@ -1,0 +1,20 @@
+
+$primary: #b1364a;
+
+.like-button {
+  position: relative;
+  display: grid;
+  place-items: center;
+  border: none;
+  cursor: pointer;
+  color: $primary;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+
+  svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+  }
+}
